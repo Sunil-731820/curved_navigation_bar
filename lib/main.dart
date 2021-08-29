@@ -51,25 +51,25 @@ class _HomePageState extends State<HomePage> {
             style: TextStyle(fontSize: 30,
             fontWeight: FontWeight.bold),),
              ),
-        
         ],
+        
       ),
     ),
     bottomNavigationBar: CurvedNavigationBar(
       index: 1,
       height: 50,
-    backgroundColor: Colors.blueAccent,
+    backgroundColor: Colors.black45,
     items: <Widget>[
       Icon(Icons.add, size: 30),
       Icon(Icons.list, size: 30),
       Icon(Icons.compare_arrows, size: 30),
       Icon(Icons.access_alarms,size: 30),
-      Icon(Icons.add_a_photo,size: 30)
+      Icon(Icons.add_a_photo,size: 30),
+      Icon(Icons.upload_file,size: 30,)
     ],
     animationDuration: Duration(milliseconds: 400),
     animationCurve: Curves.linearToEaseOut,
     onTap: (index) {
-      
     },
   ),
   body: Container(
